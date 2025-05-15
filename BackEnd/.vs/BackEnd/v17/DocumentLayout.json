@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\infrastructure\\data\\configurations\\subcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:infrastructure\\data\\configurations\\subcategoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\infrastructure\\data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:infrastructure\\data\\configurations\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\infrastructure\\data\\configurations\\usersconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:infrastructure\\data\\configurations\\usersconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\infrastructure\\data\\configurations\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:infrastructure\\data\\configurations\\contactconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\domain\\entities\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:domain\\entities\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\domain\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:domain\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,21 +62,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BackEnd",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\BackEnd.csproj",
-              "RelativeDocumentMoniker": "BackEnd.csproj",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\BackEnd.csproj",
-              "RelativeToolTip": "BackEnd.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-15T10:23:50.594Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -59,19 +82,147 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SubcategoryConfiguration.cs",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Data\\Configurations\\SubcategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\SubcategoryConfiguration.cs",
+              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Data\\Configurations\\SubcategoryConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\SubcategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:15:57.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Data\\Configurations\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\CategoryConfiguration.cs",
+              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Data\\Configurations\\CategoryConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\CategoryConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:13:18.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UsersConfiguration.cs",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Data\\Configurations\\UsersConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\UsersConfiguration.cs",
+              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Data\\Configurations\\UsersConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\UsersConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:11:25.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactConfiguration.cs",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Data\\Configurations\\ContactConfiguration.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\ContactConfiguration.cs",
+              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Data\\Configurations\\ContactConfiguration.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\Configurations\\ContactConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:07:41.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:04:33.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\Contact.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Contact.cs",
+              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\Contact.cs",
+              "RelativeToolTip": "Domain\\Entities\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:01:27.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Subcategory.cs",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\Subcategory.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Subcategory.cs",
+              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\Subcategory.cs",
+              "RelativeToolTip": "Domain\\Entities\\Subcategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:00:42.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Category.cs",
+              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:00:24.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:00:13.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BackEnd.csproj",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\BackEnd.csproj",
+              "RelativeDocumentMoniker": "BackEnd.csproj",
+              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\BackEnd.csproj",
+              "RelativeToolTip": "BackEnd.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-15T10:23:50.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "BackEnd",
               "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\BackEnd.csproj",
               "RelativeDocumentMoniker": "BackEnd.csproj",
               "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\BackEnd.csproj",
               "RelativeToolTip": "BackEnd.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-15T10:17:21.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T10:17:21.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
@@ -79,18 +230,17 @@
               "RelativeToolTip": "API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-15T10:17:05.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-15T10:17:05.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
               "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T16:40:52.248Z",
               "EditorCaption": ""

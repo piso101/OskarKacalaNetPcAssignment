@@ -18,12 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Domain\Entities\" />
     <Folder Include="Domain\Interfaces\" />
     <Folder Include="Application\DTOs\" />
     <Folder Include="Application\Validators\" />
     <Folder Include="Application\Services\" />
-    <Folder Include="Infrastructure\Data\" />
     <Folder Include="Infrastructure\Repositories\" />
     <Folder Include="Shared\Mapping\" />
     <Folder Include="Shared\Exceptions\" />
