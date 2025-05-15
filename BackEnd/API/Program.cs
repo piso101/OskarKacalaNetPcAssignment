@@ -1,7 +1,6 @@
-
 using Microsoft.EntityFrameworkCore;
 
-namespace BackEndPortfolioSite
+namespace BackEnd.API
 {
     public class Program
     {

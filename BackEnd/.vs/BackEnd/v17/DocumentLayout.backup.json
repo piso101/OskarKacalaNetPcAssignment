@@ -1,30 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\",
+  "WorkspaceRootPath": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\.net\u002Breact\u002Bsqltemplate\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\.net\u002Breact\u002Bsqltemplate\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEndPortfolioSite.csproj|d:\\hobby\\.net\u002Breact\u002Bsqltemplate\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEndPortfolioSite.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEndPortfolioSite.csproj|d:\\hobby\\.net\u002Breact\u002Bsqltemplate\\backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEndPortfolioSite.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEndPortfolioSite.csproj|d:\\hobby\\.net\u002Breact\u002Bsqltemplate\\backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEndPortfolioSite.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEndPortfolioSite.csproj|d:\\hobby\\.net\u002Breact\u002Bsqltemplate\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEndPortfolioSite.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEndPortfolioSite.csproj|d:\\hobby\\.net\u002Breact\u002Bsqltemplate\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEndPortfolioSite.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\TechnologyReadOnProjectDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -49,6 +29,26 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\.net\u002Breact\u002Bsqltemplate\\backend\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\.net\u002Breact\u002Bsqltemplate\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\.net\u002Breact\u002Bsqltemplate\\backend\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\.net\u002Breact\u002Bsqltemplate\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\.net\u002Breact\u002Bsqltemplate\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -80,74 +80,70 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T16:40:52.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Dockerfile",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Dockerfile",
+              "ToolTip": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-20T18:07:51.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T18:07:51.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAABIAAAAAAAAAAAAAADEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-20T17:43:17.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T17:43:17.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\appsettings.Development.json",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\appsettings.Development.json",
+              "ToolTip": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-20T17:43:03.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T17:43:03.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Program.cs",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Program.cs",
+              "ToolTip": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T16:51:09.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T16:51:09.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\appsettings.json",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Hobby\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\appsettings.json",
+              "ToolTip": "D:\\Hobby\\NetPc\\.net\u002Breact\u002BsqlTemplate\\BackEnd\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -155,99 +151,109 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "TechnologyReadOnProjectDto.cs",
               "DocumentMoniker": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\TechnologyReadOnProjectDto.cs",
-              "RelativeDocumentMoniker": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\TechnologyReadOnProjectDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\TechnologyReadOnProjectDto.cs",
               "ToolTip": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\TechnologyReadOnProjectDto.cs",
-              "RelativeToolTip": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\TechnologyReadOnProjectDto.cs",
+              "RelativeToolTip": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\TechnologyReadOnProjectDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T16:42:06.238Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Mapping\\MappingProfile.cs",
               "ToolTip": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Mapping\\MappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T16:38:44.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "ProjectCreateDto.cs",
               "DocumentMoniker": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\ProjectCreateDto.cs",
-              "RelativeDocumentMoniker": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\ProjectCreateDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\ProjectCreateDto.cs",
               "ToolTip": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\ProjectCreateDto.cs",
-              "RelativeToolTip": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\ProjectCreateDto.cs",
+              "RelativeToolTip": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\DTO\\ProjectCreateDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T16:37:54.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\AppDbContext\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\AppDbContext\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\AppDbContext\\ApplicationDbContext.cs",
               "ToolTip": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\AppDbContext\\ApplicationDbContext.cs",
-              "RelativeToolTip": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\AppDbContext\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\AppDbContext\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T16:23:21.554Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "ProjectTechnology.cs",
               "DocumentMoniker": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\ProjectTechnology.cs",
-              "RelativeDocumentMoniker": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\ProjectTechnology.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\ProjectTechnology.cs",
               "ToolTip": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\ProjectTechnology.cs",
-              "RelativeToolTip": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\ProjectTechnology.cs",
+              "RelativeToolTip": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\ProjectTechnology.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T16:20:32.92Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "Technology.cs",
               "DocumentMoniker": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\Technology.cs",
-              "RelativeDocumentMoniker": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\Technology.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\Technology.cs",
               "ToolTip": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\Technology.cs",
-              "RelativeToolTip": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\Technology.cs",
+              "RelativeToolTip": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\Technology.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T16:18:35.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Project.cs",
               "DocumentMoniker": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\Project.cs",
-              "RelativeDocumentMoniker": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\Project.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\Project.cs",
               "ToolTip": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\Project.cs",
-              "RelativeToolTip": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\Project.cs",
+              "RelativeToolTip": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\Project.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T16:15:11.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\User.cs",
-              "RelativeDocumentMoniker": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\User.cs",
               "ToolTip": "D:\\Hobby\\PortfolioSite\\BackEndPortfolioSite\\Models\\User.cs",
-              "RelativeToolTip": "..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\User.cs",
+              "RelativeToolTip": "..\\..\\..\\PortfolioSite\\BackEndPortfolioSite\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T16:13:41.699Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 35,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

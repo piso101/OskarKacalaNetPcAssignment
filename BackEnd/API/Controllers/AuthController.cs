@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace BackEndPortfolioSite.Controllers
+namespace BackEnd.API.Controllers
 {
 
     [ApiController]

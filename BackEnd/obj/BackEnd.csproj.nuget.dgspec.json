@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Hobby\\NetPc\\.net+react+sqlTemplate\\BackEnd\\BackEnd.csproj": {}
+    "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\BackEnd.csproj": {}
   },
   "projects": {
-    "D:\\Hobby\\NetPc\\.net+react+sqlTemplate\\BackEnd\\BackEnd.csproj": {
+    "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\BackEnd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Hobby\\NetPc\\.net+react+sqlTemplate\\BackEnd\\BackEnd.csproj",
+        "projectUniqueName": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\BackEnd.csproj",
         "projectName": "BackEnd",
-        "projectPath": "D:\\Hobby\\NetPc\\.net+react+sqlTemplate\\BackEnd\\BackEnd.csproj",
+        "projectPath": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\BackEnd.csproj",
         "packagesPath": "C:\\Users\\oskar\\.nuget\\packages\\",
-        "outputPath": "D:\\Hobby\\NetPc\\.net+react+sqlTemplate\\BackEnd\\obj\\",
+        "outputPath": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

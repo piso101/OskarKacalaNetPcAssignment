@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o20Anws2YKE=",
+  "dgSpecHash": "FuiOzyaw5R8=",
   "success": true,
-  "projectFilePath": "D:\\Hobby\\NetPc\\.net+react+sqlTemplate\\BackEnd\\BackEnd.csproj",
+  "projectFilePath": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\BackEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oskar\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0\\microsoft.entityframeworkcore.9.0.0.nupkg.sha512",
