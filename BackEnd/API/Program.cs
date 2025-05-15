@@ -1,23 +1,28 @@
 using Microsoft.EntityFrameworkCore;
-using BackEnd.Infrastructure.Data; // <-- Jeœli masz ApplicationDbContext tutaj
+using BackEnd.Infrastructure.Data;
+using BackEnd.Domain.Interfaces;
+using BackEnd.Infrastructure.Repositories;
 
 namespace BackEnd.API;
 
-public class Program
+public static class Program
 {
     public static void Main(string[] args)
     {
          var builder = WebApplication.CreateBuilder(args);
 
-         // Dodanie DbContext z PostgreSQL
          builder.Services.AddDbContext<ApplicationDbContext>(options =>
              options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
          builder.Services.AddControllers();
          builder.Services.AddEndpointsApiExplorer();
          builder.Services.AddSwaggerGen();
+         builder.Services.AddScoped<IUserRepository, UserRepository>();
+         builder.Services.AddScoped<IContactRepository, ContactRepository>();
+         builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+         builder.Services.AddScoped<ISubcategoryRepository, SubcategoryRepository>();
 
-         var app = builder.Build();
+        var app = builder.Build();
 
          if (app.Environment.IsDevelopment())
          {
@@ -26,7 +31,7 @@ public class Program
              app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "app v1"));
          }
 
-         app.UseHttpsRedirection(); // <-- Dodane dla poprawnoœci
+         app.UseHttpsRedirection();
          app.UseAuthorization();
          app.MapControllers();
 
