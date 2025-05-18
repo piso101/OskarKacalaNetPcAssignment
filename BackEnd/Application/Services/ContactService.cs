@@ -1,100 +1,93 @@
-﻿using BackEnd.Application.DTOs;
+﻿using AutoMapper;
+using BackEnd.Application.DTOs;
 using BackEnd.Domain.Entities;
 using BackEnd.Domain.Interfaces;
 
-
-namespace Application.Services;
+namespace BackEnd.Application.Services;
 
 public class ContactService : IContactService
 {
     private readonly IContactRepository _contactRepository;
     private readonly ICategoryRepository _categoryRepository;
     private readonly ISubcategoryRepository _subcategoryRepository;
+    private readonly IMapper _mapper;
 
     public ContactService(
         IContactRepository contactRepository,
         ICategoryRepository categoryRepository,
-        ISubcategoryRepository subcategoryRepository)
+        ISubcategoryRepository subcategoryRepository,
+        IMapper mapper)
     {
         _contactRepository = contactRepository;
         _categoryRepository = categoryRepository;
         _subcategoryRepository = subcategoryRepository;
+        _mapper = mapper;
     }
-
     public async Task<IEnumerable<ContactDto>> GetAllAsync()
     {
         var contacts = await _contactRepository.GetAllAsync();
-        return contacts.Select(c => new ContactDto
-        {
-            Id = c.Id,
-            FirstName = c.FirstName,
-            LastName = c.LastName,
-            Email = c.Email,
-            PhoneNumber = c.PhoneNumber,
-            Category = c.Category.Name,
-            Subcategory = c.Subcategory?.Name ?? c.CustomSubcategory,
-            DateOfBirth = c.DateOfBirth
-        });
+        return _mapper.Map<IEnumerable<ContactDto>>(contacts);
     }
 
     public async Task<ContactDto?> GetByIdAsync(int id)
     {
-        var c = await _contactRepository.GetByIdAsync(id);
-        if (c == null) return null;
-
-        return new ContactDto
-        {
-            Id = c.Id,
-            FirstName = c.FirstName,
-            LastName = c.LastName,
-            Email = c.Email,
-            PhoneNumber = c.PhoneNumber,
-            Category = c.Category.Name,
-            Subcategory = c.Subcategory?.Name ?? c.CustomSubcategory,
-            DateOfBirth = c.DateOfBirth
-        };
+        var contact = await _contactRepository.GetByIdAsync(id);
+        if (contact == null) return null;
+        return _mapper.Map<ContactDto>(contact);
     }
 
-    public async Task<int> CreateAsync(CreateContactDto dto)
+    public async Task<IEnumerable<ContactDto>> GetAllForUserAsync(int userId)
     {
-        var contact = new Contact
-        {
-            FirstName = dto.FirstName,
-            LastName = dto.LastName,
-            Email = dto.Email,
-            PhoneNumber = dto.PhoneNumber,
-            DateOfBirth = dto.DateOfBirth,
-            CategoryId = dto.CategoryId,
-            SubcategoryId = dto.SubcategoryId,
-            CustomSubcategory = dto.CustomSubcategory,
-            UserId = dto.UserId // zakładamy, że userId jest przekazany lub znany z JWT
-        };
+        var contacts = await _contactRepository.GetAllForUserAsync(userId);
+        return _mapper.Map<IEnumerable<ContactDto>>(contacts);
+    }
+
+    public async Task<ContactDto?> GetByIdForUserAsync(int id, int userId)
+    {
+        var contact = await _contactRepository.GetByIdForUserAsync(id, userId);
+        if (contact == null) return null;
+
+        return _mapper.Map<ContactDto>(contact);
+    }
+
+    public async Task<ContactDto> CreateAsync(CreateContactDto dto, int userId)
+    {
+        var contact = _mapper.Map<Contact>(dto);
+        contact.UserId = userId;
+
+        if (contact.DateOfBirth.HasValue) contact.DateOfBirth = DateTime.SpecifyKind(contact.DateOfBirth.Value, DateTimeKind.Utc);
 
         await _contactRepository.AddAsync(contact);
-        return contact.Id;
+
+        // Załaduj Category i Subcategory by mieć nazwy w DTO (opcjonalne)
+        contact.Category = await _categoryRepository.GetByIdAsync(contact.CategoryId);
+        contact.Subcategory = contact.SubcategoryId != null
+            ? await _subcategoryRepository.GetByIdAsync(contact.SubcategoryId.Value)
+            : null;
+
+        return _mapper.Map<ContactDto>(contact);
     }
 
-    public async Task<bool> UpdateAsync(int id, UpdateContactDto dto)
+    public async Task<bool> UpdateAsync(int id, UpdateContactDto dto, int userId)
     {
-        var contact = await _contactRepository.GetByIdAsync(id);
+        var contact = await _contactRepository.GetByIdForUserAsync(id, userId);
         if (contact == null) return false;
 
-        contact.FirstName = dto.FirstName;
-        contact.LastName = dto.LastName;
-        contact.Email = dto.Email;
-        contact.PhoneNumber = dto.PhoneNumber;
-        contact.DateOfBirth = dto.DateOfBirth;
-        contact.CategoryId = dto.CategoryId;
-        contact.SubcategoryId = dto.SubcategoryId;
-        contact.CustomSubcategory = dto.CustomSubcategory;
+        _mapper.Map(dto, contact);
+
+        // Konwersja daty na UTC
+        if (contact.DateOfBirth.HasValue)
+        {
+            contact.DateOfBirth = DateTime.SpecifyKind(contact.DateOfBirth.Value, DateTimeKind.Utc);
+        }
 
         await _contactRepository.UpdateAsync(contact);
         return true;
     }
 
-    public async Task<bool> DeleteAsync(int id)
+    public async Task<bool> DeleteAsync(int id, int userId)
     {
-        var contact = await _contactRepository.GetByIdAsync(id);
+        var contact = await _contactRepository.GetByIdForUserAsync(id, userId);
         if (contact == null) return false;
 
         await _contactRepository.DeleteAsync(contact);

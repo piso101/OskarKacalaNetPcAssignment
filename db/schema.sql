@@ -1,38 +1,34 @@
--- Użytkownicy systemu
-CREATE TABLE Users (
-    Id INT PRIMARY KEY IDENTITY,
-    Email NVARCHAR(255) NOT NULL UNIQUE,
-    PasswordHash NVARCHAR(255) NOT NULL
+CREATE TABLE "Users" (
+    "Id" SERIAL PRIMARY KEY,
+    "Email" VARCHAR(255) NOT NULL UNIQUE,
+    "PasswordHash" VARCHAR(255) NOT NULL
 );
 
--- Kategorie kontaktów
-CREATE TABLE Categories (
-    Id INT PRIMARY KEY IDENTITY,
-    Name NVARCHAR(50) NOT NULL
+CREATE TABLE "Categories" (
+    "Id" SERIAL PRIMARY KEY,
+    "Name" VARCHAR(50) NOT NULL
 );
 
--- Podkategorie dla wybranych kategorii
-CREATE TABLE Subcategories (
-    Id INT PRIMARY KEY IDENTITY,
-    Name NVARCHAR(50) NOT NULL,
-    CategoryId INT NOT NULL,
-    FOREIGN KEY (CategoryId) REFERENCES Categories(Id)
+CREATE TABLE "Subcategories" (
+    "Id" SERIAL PRIMARY KEY,
+    "Name" VARCHAR(50) NOT NULL,
+    "CategoryId" INT NOT NULL,
+    FOREIGN KEY ("CategoryId") REFERENCES "Categories"("Id")
 );
 
--- Kontakty
-CREATE TABLE Contacts (
-    Id INT PRIMARY KEY IDENTITY,
-    FirstName NVARCHAR(100) NOT NULL,
-    LastName NVARCHAR(100) NOT NULL,
-    Email NVARCHAR(255) NOT NULL UNIQUE,
-    PhoneNumber NVARCHAR(20),
-    DateOfBirth DATE,
-    CategoryId INT NOT NULL,
-    SubcategoryId INT NULL,
-    CustomSubcategory NVARCHAR(100) NULL,
-    UserId INT NOT NULL,
-
-    FOREIGN KEY (UserId) REFERENCES Users(Id),
-    FOREIGN KEY (CategoryId) REFERENCES Categories(Id),
-    FOREIGN KEY (SubcategoryId) REFERENCES Subcategories(Id)
+CREATE TABLE "Contacts" (
+    "Id" SERIAL PRIMARY KEY,
+    "FirstName" VARCHAR(100) NOT NULL,
+    "LastName" VARCHAR(100) NOT NULL,
+    "Email" VARCHAR(255) NOT NULL UNIQUE,
+    "PhoneNumber" VARCHAR(20),
+    "DateOfBirth" DATE,
+    "CategoryId" INT NOT NULL,
+    "SubcategoryId" INT NULL,
+    "CustomSubcategory" VARCHAR(100),
+    "UserId" INT NOT NULL,
+    FOREIGN KEY ("UserId") REFERENCES "Users"("Id"),
+    FOREIGN KEY ("CategoryId") REFERENCES "Categories"("Id"),
+    FOREIGN KEY ("SubcategoryId") REFERENCES "Subcategories"("Id")
 );
+

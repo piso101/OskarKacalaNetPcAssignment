@@ -4,9 +4,11 @@ namespace BackEnd.Domain.Interfaces;
 
 public interface IContactService
 {
-    Task<IEnumerable<ContactDto>> GetAllAsync();
+    Task<IEnumerable<ContactDto>> GetAllAsync();  // publiczne - wszystkie kontakty
     Task<ContactDto?> GetByIdAsync(int id);
-    Task<int> CreateAsync(CreateContactDto dto);
-    Task<bool> UpdateAsync(int id, UpdateContactDto dto);
-    Task<bool> DeleteAsync(int id);
+    public Task<IEnumerable<ContactDto>> GetAllForUserAsync(int userId);
+    public Task<ContactDto?> GetByIdForUserAsync(int id, int userId);
+    Task<ContactDto> CreateAsync(CreateContactDto dto, int userId);
+    Task<bool> UpdateAsync(int id, UpdateContactDto dto, int userId);
+    Task<bool> DeleteAsync(int id, int userId);
 }

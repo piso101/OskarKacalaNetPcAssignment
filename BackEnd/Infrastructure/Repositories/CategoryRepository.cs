@@ -14,6 +14,13 @@ public class CategoryRepository : ICategoryRepository
         _context = context;
     }
 
+    public async Task<Category?> GetByIdAsync(int id)
+    {
+        return await _context.Categories
+            .Include(c => c.Subcategories)
+            .FirstOrDefaultAsync(c => c.Id == id);
+    }
+
     public async Task<IEnumerable<Category>> GetAllAsync()
     {
         return await _context.Categories
