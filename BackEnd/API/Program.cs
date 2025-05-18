@@ -2,6 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using BackEnd.Infrastructure.Data;
 using BackEnd.Domain.Interfaces;
 using BackEnd.Infrastructure.Repositories;
+using Application.Services;
+using BackEnd.Application.Services;
+using BackEnd.Shared.Helpers;
+using BackEnd.Infrastructure.Configurations;
 
 namespace BackEnd.API;
 
@@ -21,8 +25,12 @@ public static class Program
          builder.Services.AddScoped<IContactRepository, ContactRepository>();
          builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
          builder.Services.AddScoped<ISubcategoryRepository, SubcategoryRepository>();
+         builder.Services.AddScoped<IContactService, ContactService>();
+         builder.Services.AddScoped<IAuthService, AuthService>();
+         builder.Services.AddSingleton<JwtGenerator>();
+         builder.Services.AddJwtAuthentication(builder.Configuration);
 
-        var app = builder.Build();
+         var app = builder.Build();
 
          if (app.Environment.IsDevelopment())
          {
@@ -30,11 +38,10 @@ public static class Program
              app.UseSwagger();
              app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "app v1"));
          }
-
          app.UseHttpsRedirection();
+         app.UseAuthentication();
          app.UseAuthorization();
          app.MapControllers();
-
          app.Run();
     }
 }

@@ -5,54 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\infrastructure\\repositories\\subcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:infrastructure\\repositories\\subcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\infrastructure\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:infrastructure\\repositories\\contactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\domain\\interfaces\\isubcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:domain\\interfaces\\isubcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\domain\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:domain\\interfaces\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\domain\\entities\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:domain\\entities\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\domain\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:domain\\entities\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|d:\\hobby\\netpc\\oskarkacalanetpc\\backend\\domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502E17F1-F69C-4065-9AD0-B1C955D01BD3}|BackEnd.csproj|solutionrelative:domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,112 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T12:12:57.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SubcategoryRepository.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Repositories\\SubcategoryRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\SubcategoryRepository.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Repositories\\SubcategoryRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\SubcategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T12:11:50.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T12:11:03.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T12:09:13.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T12:01:49.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContactRepository.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Repositories\\ContactRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ContactRepository.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Infrastructure\\Repositories\\ContactRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\ContactRepository.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T12:02:30.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Subcategory.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\Subcategory.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Subcategory.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\Subcategory.cs",
-              "RelativeToolTip": "Domain\\Entities\\Subcategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T12:01:45.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Contact.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\Contact.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Contact.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\Contact.cs",
-              "RelativeToolTip": "Domain\\Entities\\Contact.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T12:01:40.574Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -186,67 +34,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\Category.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Entities\\Category.cs",
-              "RelativeToolTip": "Domain\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T12:01:35.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ISubcategoryRepository.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Interfaces\\ISubcategoryRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\ISubcategoryRepository.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Interfaces\\ISubcategoryRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\ISubcategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:51:24.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Interfaces\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\ICategoryRepository.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Interfaces\\ICategoryRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:51:14.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:51:03.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IContactRepository.cs",
-              "DocumentMoniker": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Interfaces\\IContactRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IContactRepository.cs",
-              "ToolTip": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\Domain\\Interfaces\\IContactRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IContactRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:48:07.458Z",
+              "WhenOpened": "2025-05-18T11:00:32.905Z",
               "EditorCaption": ""
             }
           ]

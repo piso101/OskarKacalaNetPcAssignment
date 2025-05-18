@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OJ2VM2sER2o=",
+  "dgSpecHash": "4ZWcLuXZhxI=",
   "success": true,
   "projectFilePath": "D:\\Hobby\\NetPc\\oskarkacalanetpc\\BackEnd\\BackEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oskar\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\oskar\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\oskar\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.16\\microsoft.aspnetcore.authentication.jwtbearer.8.0.16.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.1\\microsoft.entityframeworkcore.9.0.1.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.1\\microsoft.entityframeworkcore.abstractions.9.0.1.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.1\\microsoft.entityframeworkcore.analyzers.9.0.1.nupkg.sha512",
@@ -19,6 +21,12 @@
     "C:\\Users\\oskar\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.1\\microsoft.extensions.logging.abstractions.9.0.1.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\microsoft.extensions.options\\9.0.1\\microsoft.extensions.options.9.0.1.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.1\\microsoft.extensions.primitives.9.0.1.nupkg.sha512",
+    "C:\\Users\\oskar\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.10.0\\microsoft.identitymodel.abstractions.8.10.0.nupkg.sha512",
+    "C:\\Users\\oskar\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.10.0\\microsoft.identitymodel.jsonwebtokens.8.10.0.nupkg.sha512",
+    "C:\\Users\\oskar\\.nuget\\packages\\microsoft.identitymodel.logging\\8.10.0\\microsoft.identitymodel.logging.8.10.0.nupkg.sha512",
+    "C:\\Users\\oskar\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "C:\\Users\\oskar\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "C:\\Users\\oskar\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.10.0\\microsoft.identitymodel.tokens.8.10.0.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\microsoft.openapi\\1.6.22\\microsoft.openapi.1.6.22.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\microsoft.visualstudio.azure.containers.tools.targets.1.20.1.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\npgsql\\9.0.3\\npgsql.9.0.3.nupkg.sha512",
@@ -27,7 +35,8 @@
     "C:\\Users\\oskar\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\7.0.0\\swashbuckle.aspnetcore.swagger.7.0.0.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\7.0.0\\swashbuckle.aspnetcore.swaggergen.7.0.0.nupkg.sha512",
     "C:\\Users\\oskar\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\7.0.0\\swashbuckle.aspnetcore.swaggerui.7.0.0.nupkg.sha512",
-    "C:\\Users\\oskar\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.1\\system.diagnostics.diagnosticsource.9.0.1.nupkg.sha512"
+    "C:\\Users\\oskar\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.1\\system.diagnostics.diagnosticsource.9.0.1.nupkg.sha512",
+    "C:\\Users\\oskar\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.10.0\\system.identitymodel.tokens.jwt.8.10.0.nupkg.sha512"
   ],
   "logs": []
 }
