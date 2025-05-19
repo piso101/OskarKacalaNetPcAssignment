@@ -55,14 +55,24 @@ public static class Program
         builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
         builder.Services.AddScoped<ISubcategoryRepository, SubcategoryRepository>();
         builder.Services.AddScoped<IContactService, ContactService>();
+        builder.Services.AddScoped<ICategoryService, CategoryService>();
+        builder.Services.AddScoped<ISubcategoryService, SubcategoryService>();
         builder.Services.AddScoped<IAuthService, AuthService>();
         builder.Services.AddSingleton<JwtGenerator>();
         builder.Services.AddJwtAuthentication(builder.Configuration);
         builder.Services.AddAutoMapper(typeof(AuthProfile), typeof(ContactProfile));
-
+        builder.Services.AddCors(options =>
+        {
+            options.AddPolicy("AllowLocalhost3000", policy =>
+            {
+                policy.WithOrigins("http://localhost:3000")
+                      .AllowAnyHeader()
+                      .AllowAnyMethod();
+            });
+        });
 
         var app = builder.Build();
-
+        app.UseCors("AllowLocalhost3000");
         if (app.Environment.IsDevelopment())
         {
             app.UseDeveloperExceptionPage();
