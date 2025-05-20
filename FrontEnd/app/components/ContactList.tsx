@@ -2,6 +2,10 @@
 
 import React from 'react';
 
+/// <summary>
+/// Model pojedynczego kontaktu wyświetlanego na liście.
+/// Dane pochodzą z backendu i są już zmapowane (np. kategoria jako string).
+/// </summary>
 interface Contact {
     id: number;
     firstName: string;
@@ -13,6 +17,12 @@ interface Contact {
     dateOfBirth?: string;
 }
 
+/// <summary>
+/// Właściwości komponentu ContactList:
+/// - lista kontaktów,
+/// - token JWT (warunkowo pokazuje przyciski edycji/usuwania),
+/// - funkcje do edycji i usuwania.
+/// </summary>
 interface Props {
     contacts: Contact[];
     token: string | null;
@@ -20,6 +30,10 @@ interface Props {
     onDelete: (id: number) => void;
 }
 
+/// <summary>
+/// Komponent listy kontaktów.
+/// Wyświetla każdy kontakt w postaci listy z możliwością edycji/usuwania (jeśli użytkownik jest zalogowany).
+/// </summary>
 export default function ContactList({ contacts, token, onEdit, onDelete }: Props) {
     return (
         <ul>
@@ -35,6 +49,8 @@ export default function ContactList({ contacts, token, onEdit, onDelete }: Props
                     <br />
                     Kategoria: {c.category} {c.subcategory ? `(${c.subcategory})` : ''}
                     <br />
+
+                    {/* Przycisk edycji i usuwania tylko gdy obecny token (użytkownik zalogowany) */}
                     {token && (
                         <>
                             <button onClick={() => onEdit(c)}>Edytuj</button>{' '}

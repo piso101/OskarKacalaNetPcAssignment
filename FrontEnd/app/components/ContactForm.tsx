@@ -3,16 +3,25 @@
 import { useState, useEffect } from 'react';
 import API_BASE_URL from '../config';
 
+/// <summary>
+/// Model kategorii (pobranej z API).
+/// </summary>
 interface Category {
     id: number;
     name: string;
 }
 
+/// <summary>
+/// Model subkategorii (pobranej z API).
+/// </summary>
 interface Subcategory {
     id: number;
     name: string;
 }
 
+/// <summary>
+/// Model formularza kontaktu — dane wejściowe/wyjściowe.
+/// </summary>
 interface Contact {
     id?: number;
     firstName: string;
@@ -25,6 +34,9 @@ interface Contact {
     dateOfBirth?: string;
 }
 
+/// <summary>
+/// Propsy przekazywane do komponentu ContactForm.
+/// </summary>
 interface ContactFormProps {
     contact?: Contact;
     token: string | null;
@@ -32,7 +44,12 @@ interface ContactFormProps {
     onCancel: () => void;
 }
 
+/// <summary>
+/// Komponent formularza tworzenia lub edycji kontaktu.
+/// Obsługuje pobieranie kategorii i podkategorii, walidację i wysyłkę danych.
+/// </summary>
 export default function ContactForm({ contact, token, onSuccess, onCancel }: ContactFormProps) {
+    // Stan formularza (inicjalizowany wartościami kontaktu, jeśli jest edycja)
     const [formData, setFormData] = useState<Contact>({
         firstName: '',
         lastName: '',
@@ -45,9 +62,10 @@ export default function ContactForm({ contact, token, onSuccess, onCancel }: Con
         ...contact,
     });
 
-    const [categories, setCategories] = useState<Category[]>([]);
-    const [subcategories, setSubcategories] = useState<Subcategory[]>([]);
+    const [categories, setCategories] = useState<Category[]>([]);           // Lista kategorii
+    const [subcategories, setSubcategories] = useState<Subcategory[]>([]); // Lista subkategorii (dynamiczna)
 
+    /// Pobranie kategorii z API po załadowaniu komponentu (jeśli token dostępny)
     useEffect(() => {
         if (!token) {
             console.warn('Brak tokenu, nie pobieram kategorii');
@@ -72,6 +90,7 @@ export default function ContactForm({ contact, token, onSuccess, onCancel }: Con
             });
     }, [token]);
 
+    /// Pobranie subkategorii po zmianie kategorii
     useEffect(() => {
         if (!token) {
             console.warn('Brak tokenu, nie pobieram podkategorii');
@@ -101,17 +120,22 @@ export default function ContactForm({ contact, token, onSuccess, onCancel }: Con
             });
     }, [formData.categoryId, token]);
 
+    /// Obsługa zmiany pól formularza (input/select)
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
         const { name, value } = e.target;
         setFormData(prev => ({
             ...prev,
-            [name]: name === 'categoryId' || name === 'subcategoryId' ? (value === '' ? undefined : Number(value)) : value,
+            [name]: name === 'categoryId' || name === 'subcategoryId'
+                ? (value === '' ? undefined : Number(value))
+                : value,
         }));
     };
 
+    /// Obsługa wysłania formularza (POST lub PUT)
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
 
+        // Prosta walidacja wymaganych pól
         if (!formData.firstName || !formData.lastName || !formData.email) {
             alert('Proszę uzupełnić imię, nazwisko i email.');
             return;
@@ -125,6 +149,7 @@ export default function ContactForm({ contact, token, onSuccess, onCancel }: Con
             return;
         }
 
+        // Usunięcie pustych pól przed wysyłką
         const cleanData = { ...formData };
         if (!cleanData.categoryId) delete cleanData.categoryId;
         if (!cleanData.subcategoryId) delete cleanData.subcategoryId;
@@ -159,32 +184,38 @@ export default function ContactForm({ contact, token, onSuccess, onCancel }: Con
         }
     };
 
+    // JSX formularza kontaktu
     return (
         <form onSubmit={handleSubmit} style={{ marginTop: 20 }}>
+            {/* Imię */}
             <label>
                 Imię:<br />
                 <input name="firstName" value={formData.firstName} onChange={handleChange} required />
             </label>
             <br />
 
+            {/* Nazwisko */}
             <label>
                 Nazwisko:<br />
                 <input name="lastName" value={formData.lastName} onChange={handleChange} required />
             </label>
             <br />
 
+            {/* Email */}
             <label>
                 Email:<br />
                 <input type="email" name="email" value={formData.email} onChange={handleChange} required />
             </label>
             <br />
 
+            {/* Telefon */}
             <label>
                 Telefon:<br />
                 <input name="phoneNumber" value={formData.phoneNumber || ''} onChange={handleChange} />
             </label>
             <br />
 
+            {/* Data urodzenia */}
             <label>
                 Data urodzenia:<br />
                 <input
@@ -196,6 +227,7 @@ export default function ContactForm({ contact, token, onSuccess, onCancel }: Con
             </label>
             <br />
 
+            {/* Kategoria */}
             <label>
                 Kategoria:<br />
                 <select name="categoryId" value={formData.categoryId ?? ''} onChange={handleChange} required>
@@ -209,6 +241,7 @@ export default function ContactForm({ contact, token, onSuccess, onCancel }: Con
             </label>
             <br />
 
+            {/* Podkategoria */}
             <label>
                 Podkategoria:<br />
                 <select
@@ -227,12 +260,14 @@ export default function ContactForm({ contact, token, onSuccess, onCancel }: Con
             </label>
             <br />
 
+            {/* Niestandardowa podkategoria */}
             <label>
                 Podkategoria niestandardowa:<br />
                 <input name="customSubcategory" value={formData.customSubcategory || ''} onChange={handleChange} />
             </label>
             <br />
 
+            {/* Przyciski */}
             <button type="submit" style={{ marginRight: 10 }}>
                 Zapisz
             </button>

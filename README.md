@@ -1,9 +1,7 @@
 
 # TEMPLATE
 
-Template for asp.net backend, next.js.ts frontend and postgres:15 Database web applications.
-
-
+NetPc zadanie Oskar Kacała How to deploy
 
 ## Authors
 
@@ -12,16 +10,25 @@ Template for asp.net backend, next.js.ts frontend and postgres:15 Database web a
 
 ## Deployment
 
-To deploy this project locally
+Aby uruchomić ten projekt lokalnie:
 
-Enter folder:
+Wejdź do folderu:
 ```bash
 cd (where the project is placed)
 ```
 
-And run docker by:
+A następnie uruchom Dockera za pomocą:
 ```bash
 docker-compose up --build
 ```
 
+Po uruchomieniu wszystkiego, dokumentacja backendu (Swagger) będzie dostępna pod adresem:
+```bash
+localhost:8080/swagger
+```
+
+Po uruchomieniu wszystkiego, frontend strony będzie dostępny pod adresem:
+```bash
+localhost:3000
+```
 
